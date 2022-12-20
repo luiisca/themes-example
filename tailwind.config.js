@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { colors } from "tailwindcss/colors";
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   // we're opting out default prefers-scheme-color media query for manual setting

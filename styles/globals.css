@@ -49,7 +49,7 @@ a {
   --accent: theme("colors.fuchsia.700");
 }
 
-[data-theme="monakai"] {
+[data-theme="gruvbox"] {
   --primary: #3c3d3e;
 
   --secondary: theme("colors.gray.300");

@@ -10,7 +10,7 @@ import { generateProducts } from "../utils/gen-card-data";
 const themes = [
   { name: "Light" },
   { name: "Dark" },
-  { name: "Monakai" },
+  { name: "Gruvbox" },
   { name: "Pink" },
 ];
 
