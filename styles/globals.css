@@ -1,3 +1,5 @@
+/* globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,4 +29,39 @@ a {
     color: white;
     background: black;
   }
+}
+
+:root {
+  --primary: theme("colors.blue.300");
+  --primary-focus: theme("colors.gray.50");
+
+  --secondary: theme("colors.gray.900");
+
+  --accent: theme("colors.blue.500");
+}
+
+[data-theme="dark"] {
+  --primary: theme("colors.black");
+  --primary-focus: theme("colors.gray.800");
+
+  --secondary: theme("colors.gray.300");
+
+  --accent: theme("colors.fuchsia.700");
+}
+
+[data-theme="monakai"] {
+  --primary: #3c3d3e;
+
+  --secondary: theme("colors.gray.300");
+
+  --accent: #cc4f22;
+}
+
+[data-theme="pink"] {
+  --primary: #402f4b;
+  --primary-focus: #1a1320;
+
+  --secondary: #dfbbf7;
+
+  --accent: #f986c2;
 }
